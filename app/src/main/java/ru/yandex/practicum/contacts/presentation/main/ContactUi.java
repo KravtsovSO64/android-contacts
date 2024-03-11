@@ -15,7 +15,7 @@ public class ContactUi implements ListDiffInterface<ContactUi> {
    // переопределенный метод из интерфейса ListDiffInterface
     @Override
     public boolean theSameAs(ContactUi elements) {
-        return this.hashCode() == elements.hashCode(); //this говорит, что сравниваем текущий с тем, что передан в метод
+        return this.hashCode() == elements.hashCode();
     }
 
     private final String phone;
