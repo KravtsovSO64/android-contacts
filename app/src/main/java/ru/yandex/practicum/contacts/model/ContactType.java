@@ -8,5 +8,4 @@ public enum ContactType {
     THREEMA,
     PHONE,
     EMAIL,
-
-    }
+}
