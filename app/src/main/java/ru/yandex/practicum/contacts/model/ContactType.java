@@ -7,5 +7,5 @@ public enum ContactType {
     SIGNAL,
     THREEMA,
     PHONE,
-    EMAIL
+    EMAIL,
 }
